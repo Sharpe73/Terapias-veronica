@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-purple-700">Masajes con Verónica</h1>
+        <h1 className="text-xl font-bold text-purple-700">Terapias Verónica</h1>
 
         {/* Botón hamburguesa */}
         <button
