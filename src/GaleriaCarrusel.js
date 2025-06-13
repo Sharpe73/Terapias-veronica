@@ -8,6 +8,7 @@ const imagenes = [
   "/imagenes/galeria2.jfif",
   "/imagenes/relajante2.jfif",
   "/imagenes/piedras2.jfif",
+  "/imagenes/estres.jfif",
 ];
 
 function GaleriaCarrusel() {
