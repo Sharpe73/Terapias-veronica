@@ -67,10 +67,22 @@ function Navbar() {
               </ul>
             )}
           </li>
-          <li className="cursor-pointer hover:text-purple-600" onClick={() => scrollToSection("galeria")}>
+          <li
+            className="cursor-pointer hover:text-purple-600"
+            onClick={() => scrollToSection("galeria")}
+          >
             Galería
           </li>
-          <li className="cursor-pointer hover:text-purple-600" onClick={() => scrollToSection("footer")}>
+          <li
+            className="cursor-pointer hover:text-purple-600"
+            onClick={() => scrollToSection("faq")}
+          >
+            Preguntas Frecuentes
+          </li>
+          <li
+            className="cursor-pointer hover:text-purple-600"
+            onClick={() => scrollToSection("footer")}
+          >
             Contacto
           </li>
         </ul>
@@ -88,24 +100,48 @@ function Navbar() {
             </li>
             {submenuOpen && (
               <ul className="ml-4 space-y-1 text-sm text-gray-600">
-                <li className="cursor-pointer hover:text-purple-500" onClick={() => scrollToSection("masaje-relajante")}>
+                <li
+                  className="cursor-pointer hover:text-purple-500"
+                  onClick={() => scrollToSection("masaje-relajante")}
+                >
                   Masaje Relajante
                 </li>
-                <li className="cursor-pointer hover:text-purple-500" onClick={() => scrollToSection("masaje-descontracturante")}>
+                <li
+                  className="cursor-pointer hover:text-purple-500"
+                  onClick={() => scrollToSection("masaje-descontracturante")}
+                >
                   Descontracturante
                 </li>
-                <li className="cursor-pointer hover:text-purple-500" onClick={() => scrollToSection("masaje-piedras")}>
+                <li
+                  className="cursor-pointer hover:text-purple-500"
+                  onClick={() => scrollToSection("masaje-piedras")}
+                >
                   Piedras Calientes
                 </li>
-                <li className="cursor-pointer hover:text-purple-500" onClick={() => scrollToSection("masaje-champi")}>
+                <li
+                  className="cursor-pointer hover:text-purple-500"
+                  onClick={() => scrollToSection("masaje-champi")}
+                >
                   Hindú Champi
                 </li>
               </ul>
             )}
-            <li className="cursor-pointer hover:text-purple-600" onClick={() => scrollToSection("galeria")}>
+            <li
+              className="cursor-pointer hover:text-purple-600"
+              onClick={() => scrollToSection("galeria")}
+            >
               Galería
             </li>
-            <li className="cursor-pointer hover:text-purple-600" onClick={() => scrollToSection("footer")}>
+            <li
+              className="cursor-pointer hover:text-purple-600"
+              onClick={() => scrollToSection("faq")}
+            >
+              Preguntas Frecuentes
+            </li>
+            <li
+              className="cursor-pointer hover:text-purple-600"
+              onClick={() => scrollToSection("footer")}
+            >
               Contacto
             </li>
           </ul>

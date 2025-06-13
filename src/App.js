@@ -35,19 +35,19 @@ function App() {
       </p>
 
       <SobreMi />
-
       <div id="servicios">
         <Servicios />
       </div>
 
       <SeccionBeneficios />
 
+      <div id="faq">
+        <Faq />
+      </div>
+
       <div id="galeria">
         <GaleriaCarrusel />
       </div>
-
-      
-      <Faq />
 
       <div id="contacto">
         <FormularioContacto />
