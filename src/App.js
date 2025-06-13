@@ -6,6 +6,7 @@ import FormularioContacto from "./components/FormularioContacto";
 import Footer from "./Footer";
 import SeccionBeneficios from "./components/SeccionBeneficios";
 import SobreMi from "./components/SobreMi";
+import Faq from "./components/Faq";
 
 function App() {
   const [mensajeEnviado, setMensajeEnviado] = useState(false);
@@ -34,20 +35,29 @@ function App() {
       </p>
 
       <SobreMi />
+
       <div id="servicios">
         <Servicios />
       </div>
+
       <SeccionBeneficios />
+
       <div id="galeria">
         <GaleriaCarrusel />
       </div>
+
+      
+      <Faq />
 
       <div id="contacto">
         <FormularioContacto />
       </div>
 
       {mensajeEnviado && (
-        <div id="gracias" className="my-12 px-4 transition-opacity duration-700 ease-in-out opacity-100">
+        <div
+          id="gracias"
+          className="my-12 px-4 transition-opacity duration-700 ease-in-out opacity-100"
+        >
           <h3 className="text-2xl font-bold text-green-600">¡Gracias por tu mensaje!</h3>
           <p className="text-gray-700 mt-2">Te responderé a la brevedad.</p>
         </div>
