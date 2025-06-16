@@ -10,7 +10,7 @@ const imagenes = [
   "/imagenes/estres.jfif",
   "/imagenes/galeria4.jpg",
   "/imagenes/galeria6.jpg",
-  "/imagenes/galeria7.jpg",
+  "/imagenes/galeria5.jpg",
   "/imagenes/galeria3.jpg",
 ];
 
