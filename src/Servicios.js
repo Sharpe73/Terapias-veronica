@@ -4,7 +4,7 @@ const servicios = [
   {
     id: "masaje-relajante",
     nombre: "Masaje Relajante",
-    precio: "$20.000",
+    precio: "$20.000 (1 hora)",
     imagen: "/imagenes/relajante.jfif",
     descripcion: `Ideal para reducir el estrés y la tensión acumulada mediante movimientos suaves y envolventes con aceites aromáticos.
 
@@ -33,7 +33,7 @@ Beneficios del masaje descontracturante:
   {
     id: "masaje-deportivo",
     nombre: "Masaje Deportivo",
-    precio: "$20.000",
+    precio: "$20.000 (1 hora)",
     imagen: "/imagenes/deportivo.jpg",
     descripcion: `El masaje deportivo se aplica con mayor intensidad para:
 
