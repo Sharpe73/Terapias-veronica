@@ -27,23 +27,23 @@ function GaleriaCarrusel() {
   };
 
   return (
-    <section className="max-w-4xl mx-auto py-12 px-4">
+    <section className="w-full flex flex-col items-center py-12 px-4">
       <h2 className="text-3xl font-bold text-center text-purple-700 mb-6">
         Galería
       </h2>
-      <Slider {...settings}>
-        {imagenes.map((src, index) => (
-          <div key={index} className="flex justify-center">
-            <div className="max-w-[500px] w-full h-[300px] rounded-xl overflow-hidden shadow-md">
+      <div className="w-full max-w-xl">
+        <Slider {...settings}>
+          {imagenes.map((src, index) => (
+            <div key={index} className="rounded-xl overflow-hidden shadow-md">
               <img
                 src={src}
                 alt={`Masaje ${index + 1}`}
-                className="w-full h-full object-cover"
+                className="w-full h-[280px] object-cover"
               />
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+      </div>
     </section>
   );
 }
