@@ -18,7 +18,14 @@ function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-purple-700">Terapias Verónica</h1>
+        <div className="flex items-center space-x-3">
+          <img
+            src="/imagenes/LOGO.jpg"
+            alt="Logo Terapias Verónica"
+            className="w-10 h-10 rounded-full object-cover"
+          />
+          <h1 className="text-xl font-bold text-purple-700">Terapias Verónica</h1>
+        </div>
 
         {/* Botón hamburguesa */}
         <button
