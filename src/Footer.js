@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaWhatsapp, FaMoneyBillWave, FaExchangeAlt } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -49,7 +49,13 @@ function Footer() {
           </a>
         </div>
 
-        <p className="text-sm mt-6 text-gray-300">
+        <div className="flex justify-center items-center gap-2 text-gray-300 mt-6 text-sm">
+          <FaMoneyBillWave className="text-lg" />
+          <FaExchangeAlt className="text-lg" />
+          <span>Aceptamos pagos en efectivo o transferencia bancaria.</span>
+        </div>
+
+        <p className="text-sm mt-2 text-gray-300">
           &copy; {new Date().getFullYear()} Terapias Verónica. Todos los derechos reservados.
         </p>
       </div>
