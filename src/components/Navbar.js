@@ -54,9 +54,9 @@ function Navbar() {
                 </li>
                 <li
                   className="cursor-pointer hover:text-purple-500"
-                  onClick={() => scrollToSection("masaje-piedras")}
+                  onClick={() => scrollToSection("masaje-deportivo")}
                 >
-                  Piedras Calientes
+                  Deportivo
                 </li>
                 <li
                   className="cursor-pointer hover:text-purple-500"
