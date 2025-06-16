@@ -84,7 +84,7 @@ function Servicios() {
                 </p>
               </div>
               <a
-                href={`https://wa.me/56979854465?text=Hola, quisiera más información sobre el servicio de ${encodeURIComponent(
+                href={`https://wa.me/56979854465?text=Hola, quisiera más información sobre el masaje  ${encodeURIComponent(
                   servicio.nombre
                 )}`}
                 target="_blank"
