@@ -27,7 +27,7 @@ Beneficios del masaje descontracturante:
   },
   {
     id: "masaje-deportivo",
-    nombre: "deportivo",
+    nombre: "Deportivo",
     precio: "$20.000",
     imagen: "/imagenes/deportivo.jpg",
     descripcion: `El masaje deportivo se aplica con mayor intensidad para:
