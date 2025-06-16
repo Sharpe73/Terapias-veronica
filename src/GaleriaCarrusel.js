@@ -11,7 +11,7 @@ const imagenes = [
   "/imagenes/galeria4.jpg",
   "/imagenes/galeria6.jpg",
   "/imagenes/galeria7.jpg",
-  "/imagenes/galeria3.jfif",
+  "/imagenes/galeria3.jpg",
 ];
 
 function GaleriaCarrusel() {
