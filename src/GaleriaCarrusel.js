@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const imagenes = [
@@ -19,10 +19,15 @@ function GaleriaCarrusel() {
     dots: true,
     infinite: true,
     speed: 500,
+    lazyLoad: "ondemand",
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 3000,
+    responsive: [
+      { breakpoint: 1024, settings: { slidesToShow: 1 } },
+      { breakpoint: 640, settings: { slidesToShow: 1 } }
+    ]
   };
 
   return (
@@ -33,7 +38,7 @@ function GaleriaCarrusel() {
       <Slider {...settings}>
         {imagenes.map((src, index) => (
           <div key={index} className="flex justify-center">
-            <div className="w-[600px] h-[350px] overflow-hidden rounded-xl shadow-md">
+            <div className="w-full max-w-[800px] aspect-w-16 aspect-h-9 overflow-hidden rounded-xl shadow-md">
               <img
                 src={src}
                 alt={`Masaje ${index + 1}`}
