@@ -1,5 +1,11 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaWhatsapp, FaMoneyBillWave, FaExchangeAlt } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaWhatsapp,
+  FaMoneyBillWave,
+  FaExchangeAlt,
+} from "react-icons/fa";
 
 function Footer() {
   return (
@@ -49,9 +55,9 @@ function Footer() {
           </a>
         </div>
 
-        <div className="flex justify-center items-center gap-2 text-gray-300 mt-6 text-sm">
-          <FaMoneyBillWave className="text-lg" />
-          <FaExchangeAlt className="text-lg" />
+        <div className="flex justify-center items-center gap-2 mt-6 text-sm text-gray-300">
+          <FaMoneyBillWave className="text-green-300 text-lg" />
+          <FaExchangeAlt className="text-white text-lg" />
           <span>Aceptamos pagos en efectivo o transferencia bancaria.</span>
         </div>
 
