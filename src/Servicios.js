@@ -16,7 +16,7 @@ const servicios = [
   },
   {
     id: "masaje-descontracturante",
-    nombre: "Descontracturante",
+    nombre: "Masaje Descontracturante",
     precio: "$20.000 (1 hora)",
     imagen: "/imagenes/descontracturante.jfif",
     descripcion: `El masaje descontracturante sirve para soltar las fibras que forman al músculo y que al entrecruzarse producen contracción muscular, abultamiento y dolor.
@@ -32,7 +32,7 @@ Beneficios del masaje descontracturante:
   },
   {
     id: "masaje-deportivo",
-    nombre: "Deportivo",
+    nombre: "Masaje Deportivo",
     precio: "$20.000",
     imagen: "/imagenes/deportivo.jpg",
     descripcion: `El masaje deportivo se aplica con mayor intensidad para:
