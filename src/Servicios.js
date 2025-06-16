@@ -26,12 +26,14 @@ Beneficios del masaje descontracturante:
 🌿 Facilita la recuperación de la movilidad.`,
   },
   {
-    id: "masaje-piedras",
-    nombre: "Masaje con Piedras Calientes",
-    precio: "$30.000",
-    imagen: "/imagenes/piedras.jfif",
-    descripcion:
-      "Terapia con piedras volcánicas calientes para relajar músculos, mejorar circulación y armonizar cuerpo y mente.",
+    id: "masaje-deportivo",
+    nombre: "deportivo",
+    precio: "$20.000",
+    imagen: "/imagenes/deportivo.jpg",
+    descripcion: `El masaje deportivo se aplica con mayor intensidad para:
+
+🌿 Reducir el dolor, regular el tono muscular, aumentar el flujo sanguíneo, mejorar la movilidad de las articulaciones y relajar la musculatura. 
+🌿 Este masaje está dirigido a quienes realizan deporte o están expuestos a esfuerzo muscular intenso, ayudando a tratar dolencias o lesiones.`,
   },
   {
     id: "masaje-champi",
