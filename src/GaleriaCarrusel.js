@@ -32,12 +32,14 @@ function GaleriaCarrusel() {
       </h2>
       <Slider {...settings}>
         {imagenes.map((src, index) => (
-          <div key={index}>
-            <img
-              src={src}
-              alt={`Masaje ${index + 1}`}
-              className="rounded-xl mx-auto max-w-[600px] h-[300px] object-cover shadow-md"
-            />
+          <div key={index} className="flex justify-center">
+            <div className="w-[600px] h-[350px] overflow-hidden rounded-xl shadow-md">
+              <img
+                src={src}
+                alt={`Masaje ${index + 1}`}
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         ))}
       </Slider>
@@ -45,4 +47,4 @@ function GaleriaCarrusel() {
   );
 }
 
-export default GaleriaCarrusel;//
+export default GaleriaCarrusel;
