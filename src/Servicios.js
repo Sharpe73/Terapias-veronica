@@ -6,8 +6,13 @@ const servicios = [
     nombre: "Masaje Relajante",
     precio: "$20.000",
     imagen: "/imagenes/relajante.jfif",
-    descripcion:
-      "Ideal para reducir el estrés y la tensión acumulada. Técnica suave, con aceites aromáticos.",
+    descripcion: `Ideal para reducir el estrés y la tensión acumulada mediante movimientos suaves y envolventes con aceites aromáticos.
+
+🌿 Relaja cuerpo y mente.
+🌿 Mejora la calidad del sueño.
+🌿 Reduce la ansiedad y el estrés.
+🌿 Estimula la circulación sanguínea.
+🌿 Alivia tensiones musculares leves.`,
   },
   {
     id: "masaje-descontracturante",
