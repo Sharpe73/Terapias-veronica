@@ -20,7 +20,7 @@ function Faq() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Depende del tipo de masaje que elijas. Las sesiones pueden durar entre <strong>45 y 90 minutos</strong>,
+            Depende del tipo de masaje que elijas. Las sesiones pueden durar entre <strong>40 y 60 minutos</strong>,
             según el tratamiento. Al agendar, te explicaremos la duración para tu caso específico.
           </Typography>
         </AccordionDetails>
