@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import SeccionBeneficios from "./components/SeccionBeneficios";
 import SobreMi from "./components/SobreMi";
 import Faq from "./components/Faq";
+import BotConsejos from "./components/BotConsejos";
 
 function App() {
   const [mensajeEnviado, setMensajeEnviado] = useState(false);
@@ -62,6 +63,8 @@ function App() {
           <p className="text-gray-700 mt-2">Te responderé a la brevedad.</p>
         </div>
       )}
+
+      <BotConsejos />
 
       <div id="footer">
         <Footer />
