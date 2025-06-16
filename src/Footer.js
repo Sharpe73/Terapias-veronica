@@ -30,7 +30,7 @@ function Footer() {
 
         <div className="flex justify-center gap-6 text-xl mt-6">
           <a
-            href="https://facebook.com"
+            href="https:/facebook.com/Reimausui"
             target="_blank"
             rel="noopener noreferrer"
             className="transition duration-200 transform hover:scale-110 hover:text-purple-300"
