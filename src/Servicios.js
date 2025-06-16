@@ -36,7 +36,7 @@ Beneficios del masaje descontracturante:
   {
     id: "masaje-champi",
     nombre: "Masaje Hindú Ayurvédico y Champi",
-    precio: "$15.000 (40 minutos)",
+    precio: "$20.000 (1 hora)",
     imagen: "/imagenes/champi.jpeg",
     descripcion: `Elimina toxinas musculares. Alivia tortícolis, mejora circulación y relaja cuello y hombros.
 Estimula el sistema nervioso, promueve el crecimiento del cabello, alivia dolores de cabeza, estrés emocional y mental.
