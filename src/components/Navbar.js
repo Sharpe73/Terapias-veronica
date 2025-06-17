@@ -71,6 +71,12 @@ function Navbar() {
                 >
                   Hindú Champi
                 </li>
+                <li
+                  className="cursor-pointer hover:text-purple-500"
+                  onClick={() => scrollToSection("terapia-feng-shui")}
+                >
+                  Feng Shui con Imanes
+                </li>
               </ul>
             )}
           </li>
@@ -130,6 +136,12 @@ function Navbar() {
                   onClick={() => scrollToSection("masaje-champi")}
                 >
                   Hindú Champi
+                </li>
+                <li
+                  className="cursor-pointer hover:text-purple-500"
+                  onClick={() => scrollToSection("terapia-feng-shui")}
+                >
+                  Feng Shui con Imanes
                 </li>
               </ul>
             )}

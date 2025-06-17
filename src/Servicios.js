@@ -51,6 +51,24 @@ Ayuda con problemas oculares, insomnio, irritabilidad y más.
 
 🌿 Recomendado para: Bruxismo, sinusitis, migrañas, zumbido de oídos, insomnio, ansiedad, angustia, depresión, falta de concentración, bloqueo energético y mental.`,
   },
+  {
+    id: "terapia-feng-shui",
+    nombre: "Terapia Feng Shui en el Cuerpo con Imanes Alto Impacto",
+    precio: "$20.000 (45 minutos)",
+    imagen: "/imagenes/fengshui.jpg",
+    descripcion: `Esta terapia apunta a reordenar los ciclos naturales que tiene nuestro organismo y que afecta desde la célula más pequeña hasta las aspiraciones más profundas de la vida a nivel orgánico y emocional con la aplicación de imanes de alto impacto. 
+
+Trata enfermedades tanto físicas como mentales y estado emocional de cada paciente en particular, ya que el feng shui en el cuerpo es una terapia personalizada donde los imanes serán colocados según la ficha clínica de cada paciente, buscando sanar, equilibrar. 
+
+Feng shui como terapia en el cuerpo tiene múltiples aplicaciones como por ejemplo:
+🌿 Adicciones: puede terminar con la adicción.
+🌿 Órganos: trata la patología de cada órgano.
+🌿 Estados depresivos.
+🌿 Agotamiento físico y mental.
+🌿 Claridad mental para afrontar el diario vivir.
+🌿 Ayuda a despejar traumas del pasado.
+🌿 Energizar y equilibrar.`,
+  },
 ];
 
 function Servicios() {
@@ -69,7 +87,11 @@ function Servicios() {
             <img
               src={servicio.imagen}
               alt={servicio.nombre}
-              className="w-full h-48 object-cover"
+              className={`w-full ${
+                servicio.id === "terapia-feng-shui"
+                  ? "h-60 object-contain bg-white"
+                  : "h-48 object-cover"
+              }`}
             />
             <div className="p-4 text-center flex-grow flex flex-col justify-between">
               <div>

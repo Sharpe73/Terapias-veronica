@@ -7,6 +7,8 @@ import Footer from "./Footer";
 import SeccionBeneficios from "./components/SeccionBeneficios";
 import SobreMi from "./components/SobreMi";
 import Faq from "./components/Faq";
+import Consulta from "./components/Consulta";
+import FallingLeaves from "./components/FallingLeaves"; // ✅ agregado
 
 function App() {
   const [mensajeEnviado, setMensajeEnviado] = useState(false);
@@ -26,7 +28,9 @@ function App() {
   }, []);
 
   return (
-    <div id="top" className="text-center pt-24 min-h-screen bg-[#fefaf6]">
+    <div id="top" className="text-center pt-24 min-h-screen bg-[#fefaf6] relative overflow-hidden">
+      <FallingLeaves /> {/* ✅ hojas flotando en todo el fondo */}
+
       <Navbar />
 
       <h1 className="text-4xl font-bold text-purple-700">Terapias Verónica</h1>
@@ -35,6 +39,9 @@ function App() {
       </p>
 
       <SobreMi />
+
+      <Consulta />
+
       <div id="servicios">
         <Servicios />
       </div>
